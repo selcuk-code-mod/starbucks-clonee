@@ -95,3 +95,19 @@ li .nav-link,
   padding-left: 10px;
 }
 
+.bottomDrawer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e3932;
+    color: #f9f9f9;
+    position: sticky;
+    bottom: 0;
+    font-weight: 600;
+}
+
+.bag{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
