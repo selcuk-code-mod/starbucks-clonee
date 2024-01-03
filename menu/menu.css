@@ -70,3 +70,28 @@ li .nav-link,
   font-weight: 500;
 }
 
+.main-menu {
+  padding-left: 150px;
+}
+
+.menu-subheader {
+  margin-top: 50px;
+}
+
+.col-6{
+    margin-top: 50px !important;
+}
+
+.item img {
+  border-radius: 100%;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.item span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
