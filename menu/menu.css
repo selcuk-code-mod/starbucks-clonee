@@ -22,3 +22,29 @@ li .nav-link,
 .gre:hover {
   color: black;
 }
+
+.navbar{
+    border-bottom: 1px solid rgb(184, 180, 180);
+}
+
+
+.nav-bar-2{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid rgb(184, 180, 180);
+    position: sticky;
+    /* width: 100%; */
+    top: 0;
+}
+
+.sticky-nav-bar{
+    display: flex;
+    padding-top: 15px;
+    list-style: none;
+    margin-left: 70px;
+}
+
+.sticky-nav-bar a{
+    text-decoration: none;
+    padding-left: 1rem;
+    color: #2a2a2a;
+}
