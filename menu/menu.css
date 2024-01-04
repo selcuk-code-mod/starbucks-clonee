@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  
+}
+body{
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  width: 3.2rem;
+  height: auto;
+}
+
+li .nav-link,
+.gre {
+  font-weight: 700;
+  color: #009153;
+}
+.gre:hover {
+  color: black;
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(184, 180, 180);
+}
+
+.nav-bar-2 {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid rgb(184, 180, 180);
+  position: sticky;
+  /* width: 100%; */
+  top: 0;
+}
+
+.sticky-nav-bar {
+  display: flex;
+  padding-top: 15px;
+  list-style: none;
+  margin-left: 70px;
+}
+
+.sticky-nav-bar a {
+  text-decoration: none;
+  padding-left: 1rem;
+  color: #2a2a2a;
+}
+
+.menu {
+  display: flex;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+.sidebar-list {
+  list-style: none;
+}
+
+.list-header {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.list-subheader {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.509);
+  font-weight: 500;
+}
+
+.main-menu {
+  padding-left: 150px;
+}
+
+.menu-subheader {
+  margin-top: 50px;
+}
+
+.col-lg-6{
+    margin-top: 50px !important;
+}
+
+.item img {
+  border-radius: 100%;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.item span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+
+.bottomDrawer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e3932;
+    color: #f9f9f9;
+    position: sticky;
+    bottom: 0;
+    font-weight: 600;
+}
+
+.bag{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
