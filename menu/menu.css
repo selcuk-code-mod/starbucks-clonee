@@ -115,11 +115,6 @@ li .nav-link,
   font-size: 3rem;
 }
 
-
-footer{
-  margin-top: 100px;
-}
-
 .footer-social{
   display: flex;
   list-style: none;
@@ -148,3 +143,11 @@ footer{
   box-shadow:0 0 0 7px rgb(229, 229, 229);
   transition: .5s;
 }
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 25px;
+}
+
