@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 a img {
   width: 3.2rem;
@@ -45,12 +45,12 @@ li .nav-link,
   background-color: #1b3a32;
 }
 .accordion-body p a {
-  color: #6b6b6b;
-  text-decoration: none;
+  color: #6b6b6b !important;
+  text-decoration: none !important;
 }
 
 .accordion-body p a:hover {
-  color: #006241;
+  color: #006241 !important;
 }
 
 .footer-social {
