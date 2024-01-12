@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Gift Cards</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a img {
+  width: 3.2rem;
+  height: auto;
+}
+      .border {
+        border: 1px solid black;
+        border-radius: 30px;
+        color: black;
+      }
+      hr {
+        border: none;
+        border-top: 3px solid black;
+        box-shadow: 5px 5px 10px;
+      }
+      img{
+        
+      }
+      .picture { 
+        width: 25%;
+      }
+      .footer-content{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        margin-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white p-3 px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="rounded-circle" src="/images/starbucks.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item ps-2">
+                <a class="nav-link" aria-current="page" href="#">MENU</a>
+              </li>
+              <li class="nav-item ps-2">
+                <a class="nav-link text-succsess fw-bold" href="#">REWARDS</a>
+              </li>
+  
+              <li class="nav-item ps-2">
+                <a class="nav-link text-succsess fw-bold" href="#">GIFT CARDS</a>
+              </li>
+            </ul>
+            <buttons class="d-flex pe-3">
+              <div class="map me-2 pt-2 gre">
+                <i class="fa-solid fa-location-dot fa-lg"></i>
+              </div>
+              <div class="me-5 pt-2 gre">
+                <a class="nav-link text-succsess fw-bold" href="#"
+                  >Find a store</a
+                >
+              </div>
+              <button
+                class="btn btn-outline-success text-warning border-dark me-3 rounded-4 text-center"
+              >
+                Sign in
+              </button>
+              <button class="btn btn-dark border-dark rounded-4 text-center">
+                Join now
+              </button>
+            </buttons>
+          </div>
+        </div>
+      </nav>
+      <hr />
+      <div class="container">
+        <div class="row d-flex justify-content-between fw-bolder mt-5">
+          <div class="col-1">FEATURED</div>
+          <div class="col-1">See All</div>
+        </div>
+        <div class="container" >
+          <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+            <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/8.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/9.png" alt=""></div>
+          </div>
+      </div>
+      <div class="container my-5 bg-light d-flex align-items-center py-3 fw-folder" style="display: flex;">
+        <img src="/images/13.png" alt="">
+        <p class="px-3">New! Effortlessly send up to 10 eGifts per purchase. Select a design to start!</p>
+      </div>
+      <div class="container my-5 bg-light d-flex align-items-center py-3 fw-folder" style="display: flex;">
+        <p class="px-3"><span class="fw-bolder fs-3">Received a gift card?</span><span class="fw-light">Earns 2★Stars per $1</span></p>
+      </div>
+      <div class="container fw-bolder">
+        <p>NEW YEAR</p>
+        <div class="row d-flex justify-content-start" style="flex-wrap:nowrap">
+          <div class="col-md-2"><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>KWANZAA</p>
+        <div class="row d-flex justify-content-start" style="flex-wrap:nowrap">
+          <div class="col-md-2"><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/5.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>BİRTHDAY</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/8.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/9.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>THANK YOU</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/8.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/9.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>APPRECIATION</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>CELEBRATİON</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>WİNTER</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>HOLİDAY</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>RED CUP</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>THE COLOR PURPLE | IN THEATERS CHRISTMAS DAY</p>
+        <div class="row d-flex justify-content-start overflow-x-auto">
+          <div class="col-md-2 "><img src="/images/14.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>ENCOURAGEMENT</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>AFFECTION</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="container fw-bolder py-5">
+        <p>WORKPLACE</p>
+        <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+          <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+          <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+        </div>
+        <div class="container fw-bolder py-5">
+          <p>ANYTIME</p>
+          <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
+            <div class="col-md-2 "><img src="/images/2.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/4.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/6.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/7.png" alt=""></div>
+            <div class="col-md-2 mx-5 px-5"><img src="/images/8.png" alt=""></div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="col d-flex justify-content-start bg-light">
+            <div class="row-3"><img src="/images/15.png" alt=""></div>
+            <div class="row-3 lh-1 ms-5"><h2>Business gifting — simplified</h2><p>Bulk send physical or digital Starbucks</p><p>Cards to gift, reward, incentivize, or</p><p>show appreciation towards your</p><p>customers, clients and team members.</p><p>Minimum 15 cards per order.</p><button type="button" class="btn btn-outline-dark rounded-pill">Shop Now</button></div>
+          </div>
+        </div>
+        <div class="container bg-gradient my-5 bg-light">
+          <p class="fw-bolder">GİFT CARD SUPPORT</p>
+          <p class="lh-1">Use the links below to manage eGifts you have sent</p>
+          <p class="lh-1">or received, or view our full Card Terms & Conditions.</p>
+          <button type="button" class="btn btn-outline-dark rounded-pill fw-bold">eGift Support</button><button type="button" class="btn btn-outline-dark rounded-pill fw-bold ms-3">See Terms & Conditions</button><button type="button" class="btn btn-outline-dark rounded-pill ms-3 fw-bold">eGifts FAQs</button>
+        </div>
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-2 fw-normal">
+              <h4 class="my-4">About Us</h4>
+              <p>Our Company</p> <p>Our Coffee</p><p>Stories and News</p><p>Starbuks Archive</p><p>Inverstor Relations</p><p>Customer Service</p><p>Contact Us</p>
+            </div>
+            <div class="col-2 fw-normal">
+              <h4 class="my-4">Careers</h4>
+              <p>Culture and Values</p><p>Inclusion, Diversity, and Equity</p><p>College Achievement Plan</p><p>Alumni Community</p><p>U.S. Careers</p><p>International Careers</p>
+            </div>
+            <div class="col-2 fw-normal">
+              <h4 class="my-4">Social İmpat</h4>
+              <p>People</p><p>Planet</p><p>Environmental and Social Impact Reporting</p>
+            </div>
+            <div class="col-2 fw-normal">
+              <h4 class="my-4">For Business Partners</h4>
+              <p>Landlord Support Center</p><p>Suppliers</p><p>Corporate Gift Card Sales</p><p>Office and Foodservice Coffee</p>
+            </div>
+            <div class="col-2 fw-normal">
+              <h4 class="my-4">Order and Pick Up</h4>
+              <p>Order on the App</p><p>Order on the Web</p><p>Delivery</p><p>Order and Pick Up Options</p><p>Explore and Find Coffee for Home</p>
+            </div>
+          </div>
+        </div>
+    </header>
+    <footer>
+      <div class="container">
+        <ul class="footer-content">
+          <li>Privacy Notice</li>
+          <span>|</span>
+          <li>Terms of Use</li>
+          <span>|</span>
+          <li class="text-center">Do not share my personal <br> information</li>
+          <span>|</span>
+          <li class="text-center">CA Supply Chain <br> Act</li>
+          <span>|</span>
+          <li>Accessibility</li>
+          <span>|</span>
+          <li>Cookie Preferences</li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <p>© 2024 Starbucks Coffee Company. All rights reserved.</p>
+      </div>
+    </footer>
+    
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+
+
