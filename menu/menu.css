@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 a img {
   width: 3.2rem;
@@ -36,6 +36,7 @@ li .nav-link,
   position: sticky;
   /* width: 100%; */
   top: 0;
+  z-index: 1;
 }
 
 .sticky-nav-bar {
@@ -166,4 +167,8 @@ li .nav-link,
     display: none;
   }
 
+}
+
+.accordion-body p a {
+  color: #6b6b6b;
 }

@@ -52,13 +52,40 @@ a img {
         }
       
       }
+      
+      .footer-content{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-top: 25px;
+      }
+      @media (max-width: 1000px) {
+       .footer-content {
+        flex-direction: column;
+     }
+
+      .footer-content li{
+       margin-top: 15px;
+      text-align: start !important;
+     }
+
+     .footer-content span{
+       display: none;
+     }
+
+      }
+      .accordion-body p a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
     </style>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-white p-3 px-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="/starbucks-clonee/home page/index.html"
             ><img class="rounded-circle" src="../images/starbucks.png" alt=""
           /></a>
           <button
@@ -78,14 +105,14 @@ a img {
               style="--bs-scroll-height: 100px"
             >
               <li class="nav-item ps-2">
-                <a class="nav-link" aria-current="page" href="#">MENU</a>
+                <a class="nav-link" aria-current="page" href="/starbucks-clonee/menu/menu.html">MENU</a>
               </li>
               <li class="nav-item ps-2">
-                <a class="nav-link text-succsess fw-bold" href="#">REWARDS</a>
+                <a class="nav-link text-succsess fw-bold" href="/starbucks-clonee/rewards/rewards.html">REWARDS</a>
               </li>
   
               <li class="nav-item ps-2">
-                <a class="nav-link text-succsess fw-bold" href="#">GIFT CARDS</a>
+                <a class="nav-link text-succsess fw-bold" href="/giftcard.html">GIFT CARDS</a>
               </li>
             </ul>
             <buttons class="d-flex pe-3">
@@ -187,7 +214,7 @@ a img {
           <div class="col-md-2 mx-5 px-5 resim"><img src="./images/7.png" alt=""></div>
         </div>
       </div>
-      <div class="container fw-bolder py-5"> resim
+      <div class="container fw-bolder py-5">
         <p>WİNTER</p>
         <div class="row d-flex justify-content-start overflow-x-auto" style="flex-wrap:nowrap">
           <div class="col-md-2 resim"><img src="./images/2.png" alt=""></div>
@@ -272,27 +299,194 @@ a img {
           <p class="lh-1">or received, or view our full Card Terms & Conditions.</p>
           <button type="button" class="btn btn-outline-dark rounded-pill fw-bold">eGift Support</button><button type="button" class="btn btn-outline-dark rounded-pill fw-bold ms-3">See Terms & Conditions</button><button type="button" class="btn btn-outline-dark rounded-pill ms-3 fw-bold">eGifts FAQs</button>
         </div>
-        <div class="container">
-          <div class="row d-flex justify-content-between">
-            <div class="col-2 fw-normal">
-              <h4 class="my-4">About Us</h4>
-              <p>Our Company</p> <p>Our Coffee</p><p>Stories and News</p><p>Starbuks Archive</p><p>Inverstor Relations</p><p>Customer Service</p><p>Contact Us</p>
-            </div>
-            <div class="col-2 fw-normal">
-              <h4 class="my-4">Careers</h4>
-              <p>Culture and Values</p><p>Inclusion, Diversity, and Equity</p><p>College Achievement Plan</p><p>Alumni Community</p><p>U.S. Careers</p><p>International Careers</p>
-            </div>
-            <div class="col-2 fw-normal">
-              <h4 class="my-4">Social İmpat</h4>
-              <p>People</p><p>Planet</p><p>Environmental and Social Impact Reporting</p>
-            </div>
-            <div class="col-2 fw-normal">
-              <h4 class="my-4">For Business Partners</h4>
-              <p>Landlord Support Center</p><p>Suppliers</p><p>Corporate Gift Card Sales</p><p>Office and Foodservice Coffee</p>
-            </div>
-            <div class="col-2 fw-normal">
-              <h4 class="my-4">Order and Pick Up</h4>
-              <p>Order on the App</p><p>Order on the Web</p><p>Delivery</p><p>Order and Pick Up Options</p><p>Explore and Find Coffee for Home</p>
+        <div class="section-3">
+          <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    About US
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <a href="#">Our Company</a>
+                    </p>
+                    <p>
+                      <a href="#">Our Coffee</a>
+                    </p>
+                    <p>
+                      <a href="#">Stories and News</a>
+                    </p>
+                    <p>
+                      <a href="#">Starbucks Archive</a>
+                    </p>
+                    <p>
+                      <a href="#">Investor Relations</a>
+                    </p>
+                    <p>
+                      <a href="#">Customer Service</a>
+                    </p>
+                    <p>
+                      <a href="#">Contact Us</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Careers
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <a href="#">Culture and Values</a>
+                    </p>
+                    <p>
+                      <a href="#">Inclusion, Diversity, and Equity</a>
+                    </p>
+                    <p>
+                      <a href="#">College Achievement Plan</a>
+                    </p>
+                    <p>
+                      <a href="#">Alumni Community</a>
+                    </p>
+                    <p>
+                      <a href="#">U.S. Careers</a>
+                    </p>
+                    <p>
+                      <a href="#">International Careers </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Social Impact
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <a href="#">People </a>
+                    </p>
+                    <p>
+                      <a href="#">Planet </a>
+                    </p>
+                    <p>
+                      <a href="#">Environmental and Social Impact Reporting </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    For Business Partners
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <a href="#">Landlord Support Center </a>
+                    </p>
+                    <p>
+                      <a href="#">Suppliers </a>
+                    </p>
+                    <p>
+                      <a href="#">Corporate Gift Card Sales </a>
+                    </p>
+                    <p>
+                      <a href="#">Office and Foodservice Coffee </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    Order and Pick Up
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <a href="">Order on the App </a>
+                    </p>
+                    <p>
+                      <a href="">Order on the Web </a>
+                    </p>
+                    <p>
+                      <a href="">Delivery </a>
+                    </p>
+                    <p>
+                      <a href="">Order and Pick Up Options </a>
+                    </p>
+                    <p>
+                      <a href="">Explore and Find Coffee for Home </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
