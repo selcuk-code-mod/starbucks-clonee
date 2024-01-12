@@ -151,3 +151,19 @@ li .nav-link,
   margin-top: 25px;
 }
 
+
+@media (max-width: 1000px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-content li{
+    margin-top: 15px;
+    text-align: start !important;
+  }
+
+  .footer-content span{
+    display: none;
+  }
+
+}

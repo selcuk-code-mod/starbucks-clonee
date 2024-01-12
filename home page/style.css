@@ -39,8 +39,67 @@ li .nav-link,
   background-color: #006241;
 }
 .three {
-  background-color: #eec0ab;
+  background-color: #eec0aa;
 }
 .win2 {
   background-color: #1b3a32;
+}
+.accordion-body p a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.accordion-body p a:hover {
+  color: #006241;
+}
+
+.footer-social {
+  display: flex;
+  list-style: none;
+}
+
+.footer-social li {
+  margin-left: 10px;
+}
+
+.fa-brands {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.circle {
+  background: #000000;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  box-shadow: 0 0 0 7px rgb(229, 229, 229);
+  transition: 0.5s;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 25px;
+}
+
+@media (max-width: 1000px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-content li {
+    margin-top: 15px;
+    text-align: start !important;
+  }
+
+  .footer-content span {
+    display: none;
+  }
 }
