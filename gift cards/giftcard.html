@@ -116,6 +116,92 @@
       color: #6b6b6b;
       text-decoration: none;
     }
+    li .nav-link,
+.gre {
+  font-weight: 700;
+  color: #009153;
+}
+.gre:hover {
+  color: black;
+}
+.first {
+  background-color: #d4e9e2;
+}
+
+.col-8 h1 {
+  font-size: 3rem;
+}
+.win {
+  background-color: #ad96dc;
+}
+.second {
+  background-color: #006241;
+}
+.three {
+  background-color: #eec0aa;
+}
+.win2 {
+  background-color: #1b3a32;
+}
+.accordion-body p a {
+  color: #6b6b6b !important;
+  text-decoration: none !important;
+}
+
+.accordion-body p a:hover {
+  color: #006241 !important;
+}
+
+.footer-social {
+  display: flex;
+  list-style: none;
+}
+
+.footer-social li {
+  margin-left: 10px;
+}
+
+.fa-brands {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.circle {
+  background: #000000;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  box-shadow: 0 0 0 7px rgb(229, 229, 229);
+  transition: 0.5s;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 25px;
+}
+
+@media (max-width: 1000px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-content li {
+    margin-top: 15px;
+    text-align: start !important;
+  }
+
+  .footer-content span {
+    display: none;
+  }
+}
   </style>
 </head>
 
@@ -123,16 +209,28 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-white p-3 px-4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/home page/index.html"><img class="rounded-circle"
-            src="../images/starbucks.png" alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand " href="/home page/index.html"
+          ><img class="rounded-circle img-logo" src="/images/starbucks.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0"
+            style="--bs-scroll-height: 100px"
+          >
             <li class="nav-item ps-2">
-              <a class="nav-link" aria-current="page" href="/starbucks-clonee/menu/menu.html">MENU</a>
+              <a class="nav-link" aria-current="page" href="/menu/menu.html">MENU</a>
+              
             </li>
             <li class="nav-item ps-2">
               <a class="nav-link text-succsess fw-bold" href="/rewards/rewards.html">REWARDS</a>
@@ -147,9 +245,13 @@
               <i class="fa-solid fa-location-dot fa-lg"></i>
             </div>
             <div class="me-5 pt-2 gre">
-              <a class="nav-link text-succsess fw-bold" href="#">Find a store</a>
+              <a class="nav-link text-succsess fw-bold" href="#"
+                >Find a store</a
+              >
             </div>
-            <button class="btn btn-outline-success text-warning border-dark me-3 rounded-4 text-center">
+            <button
+              class="btn btn-outline-success text-warning border-dark me-3 rounded-4 text-center"
+            >
               Sign in
             </button>
             <button class="btn btn-dark border-dark rounded-4 text-center">

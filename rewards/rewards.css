@@ -32,6 +32,10 @@ figcaption, button {
   font-family: var(--main-font);
 }
 
+.img-logo{
+  max-height: 50px;
+}
+
 h1 {
   font-family: var(--header-font);
 }
@@ -88,10 +92,44 @@ section > header {
   line-height: 2.2;
 }
 
-/* nav styles */
+li .nav-link,
+.gre {
+  font-weight: 700;
+  color: #009153;
+}
+.gre:hover {
+  color: black;
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(184, 180, 180);
+}
+
+.nav-bar-2 {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid rgb(184, 180, 180);
+  position: sticky;
+  /* width: 100%; */
+  top: 0;
+  z-index: 1;
+}
+
+.sticky-nav-bar {
+  display: flex;
+  padding-top: 15px;
+  list-style: none;
+  margin-left: 70px;
+}
+
+.sticky-nav-bar a {
+  text-decoration: none;
+  padding-left: 1rem;
+  color: #2a2a2a;
+}
+/*/~ nav styles ~/
 nav.nav {
   background-color: #fff;
-  /* height: 15vh; */
+  /~ height: 15vh; ~/
   width: 100%;
   padding: 1em;
   display: flex;
@@ -140,7 +178,7 @@ nav.nav > .nav__hamburger > button > i {
 .nav a:hover,
 .nav a:focus {
   color: var(--lt-green);
-}
+}*/
 
 .btn-signin {
   color:rgba(0, 0, 0, .87);
