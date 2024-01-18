@@ -45,12 +45,12 @@ li .nav-link,
   background-color: #1b3a32;
 }
 .accordion-body p a {
-  color: #6b6b6b !important;
-  text-decoration: none !important;
+  color: #6b6b6b;
+  text-decoration: none;
 }
 
 .accordion-body p a:hover {
-  color: #006241 !important;
+  color: #006241;
 }
 
 .footer-social {
@@ -102,4 +102,7 @@ li .nav-link,
   .footer-content span {
     display: none;
   }
+}
+.accordion-header button {
+  border: none;
 }
